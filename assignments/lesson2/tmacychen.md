@@ -94,3 +94,13 @@ git config --global core.autocrlf input  # Linux/macOS 用户：提交时转换�
 合并分支的代码
 >>>>>>> source-branch
 ```
+
+### update 11/20
+
+- 添加上游分支: `git remote add upstream https://github.com/upstreamlabs/github101`
+- 查看当前远程分支: `git remote -v`
+- 获得上游远程分支:`git fetch upstream`
+- 合并上游远程分支:`git merge upstream/main`
+
+
+
